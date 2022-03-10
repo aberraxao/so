@@ -1,0 +1,672 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+Debian-exim:x:101:103::/var/spool/exim4:/bin/false
+statd:x:102:65534::/var/lib/nfs:/bin/false
+messagebus:x:103:106::/var/run/dbus:/bin/false
+sshd:x:104:65534::/var/run/sshd:/usr/sbin/nologin
+rui:x:1000:1000:rui,,,:/home/rui:/bin/false
+nagios:x:108:113::/var/lib/nagios:/bin/false
+nslcd:x:110:116:nslcd name service LDAP connection daemon,,,:/var/run/nslcd/:/bin/false
+_apt:x:109:65534::/nonexistent:/bin/false
+machado:x:1003:1003::/home/machado:/bin/bash
+fmmb:x:1001:1018:Fernando Batista,Gab. D6.21,,:/home/fmmb:/bin/bash
+prrt:x:1004:1005:Paulo Trezentos,,,:/home/prrt:/usr/sbin/nologin
+jpaos:x:1176:1018:Joao Oliveira,,,:/home/jpaos:/bin/bash
+ajsco:x:1002:1002:,,,:/home/ajsco:/usr/sbin/nologin
+jpcmt:x:1398:1012:Jorge Teixeira,,,:/home/jpcmt:/usr/sbin/nologin
+uuidd:x:100:101::/run/uuidd:/bin/false
+saned:x:105:110::/var/lib/saned:/bin/false
+rundeck:x:666:1013::/home/rundeck:/bin/sh
+jmabo:x:1005:1009:Jorge Miguel Branquinho,,,:/home/jmabo:/usr/sbin/nologin
+jrg:x:1428:1015:Joao Baptista Goncalves,,,:/home/jrg:/usr/sbin/nologin
+firpo:x:1007:50:Filipa Prudencio,,,:/home/firpo:/usr/sbin/nologin
+ccruz:x:1008:50:Catarina Cruz,,,:/home/ccruz:/bin/bash
+mrivotti:x:1009:50:Mario Rivotti,,,:/home/mrivotti:/usr/sbin/nologin
+cecoutinho:x:1010:50:Carlos Coutinho,,,:/home/cecoutinho:/bin/bash
+fduarte:x:1399:1011:,,,:/home/fduarte:/bin/bash
+vnstat:x:111:117::/var/lib/vnstat:/bin/false
+Debian-snmp:x:106:111::/var/lib/snmp:/bin/false
+antunes:x:1012:50:João Antunes,,,:/home/antunes:/usr/sbin/nologin
+jfelicio:x:1013:50:João Felício,,,:/home/jfelicio:/bin/bash
+rafael:x:1014:50:Jorge Rafael,,,:/home/rafael:/bin/bash
+mbjr:x:1349:1017:Mauricio BRETERNITZ,D-102,,:/home/mbjr:/usr/sbin/nologin
+diogo:x:1415:1019:,,,:/home/diogo:/bin/false
+pjp:x:1006:50:Paulo Pereira,,,:/home/pjp:/bin/bash
+pjfva:x:1021:1021:,,,:/home/pjfva:/bin/bash
+imfs:x:1053:1053:,,,:/home/imfs:/bin/bash
+labso:x:1011:1006:labso,,,:/home/labso:/bin/bash
+rfonseca:x:1308:50:Ricardo Fonseca,,,:/home/rfonseca:/bin/bash
+fprudencio:x:1309:1006:Filipa Prudencio,,,:/home/fprudencio:/bin/bash
+a87895:x:1016:1006:Afonso Goncalo de Moura Rolo Leal Goncalves,,,:/home/a87895:/bin/bash
+a93084:x:1018:1006:Afonso Lopes dos Santos Costa,,,:/home/a93084:/bin/bash
+a93178:x:1023:1006:Afonso Pinheiro Sampaio,,,:/home/a93178:/bin/bash
+a87609:x:1030:1006:Ana Maria Gabriel Cardante,,,:/home/a87609:/bin/bash
+a81973:x:1031:1006:Ana Rita Alexandre Ramos,,,:/home/a81973:/bin/bash
+a93003:x:1033:1006:Ana Rita Paulo Raposo,,,:/home/a93003:/bin/bash
+a83685:x:1036:1006:Ana Teresa Catarino Antunes,,,:/home/a83685:/bin/bash
+a87611:x:1037:1006:Andre Alexandre Amaral de Oliveira,,,:/home/a87611:/bin/bash
+a93252:x:1038:1006:Andre Cristina Pereira,,,:/home/a93252:/bin/bash
+a92440:x:1040:1006:Andre Filipe Neves Pires,,,:/home/a92440:/bin/bash
+a92883:x:1041:1006:Andre Filipe Pereira Tavares,,,:/home/a92883:/bin/bash
+a23656:x:1044:1006:Andre Paulo Tome Esteves,,,:/home/a23656:/bin/bash
+a90283:x:1047:1006:Antonio Carneiro Crossas,,,:/home/a90283:/bin/bash
+a88000:x:1048:1006:Antonio Gallis Rocha,,,:/home/a88000:/bin/bash
+a82879:x:1049:1006:Antonio Maria Caldeira Rebelo Delgado Bento,,,:/home/a82879:/bin/bash
+a88311:x:1054:1006:Bawik Raxmicante Motichande,,,:/home/a88311:/bin/bash
+a92442:x:1056:1006:Bernardo Maria de Oliveira Moura Gomes,,,:/home/a92442:/bin/bash
+a65651:x:1064:1006:Bruno Daniel Esteves Galo,,,:/home/a65651:/bin/bash
+a55089:x:1067:1006:Carina Patricia Reis Abreu,,,:/home/a55089:/bin/bash
+a62281:x:1068:1006:Carla Andreia Costa Gregorio,,,:/home/a62281:/bin/bash
+a28429:x:1070:1006:Carlos Eduardo Neves Gomes Norte,,,:/home/a28429:/bin/bash
+a82442:x:1073:1006:Carolina da Silva e Salvador,,,:/home/a82442:/bin/bash
+a89042:x:1080:1006:Claudio de Jesus de Sousa Garcia,,,:/home/a89042:/bin/bash
+a65251:x:1081:1006:Clemente Alexandre Ferreira Barros,,,:/home/a65251:/bin/bash
+a87567:x:1086:1006:Daniel Machado de Sousa,,,:/home/a87567:/bin/bash
+a92553:x:1087:1006:Daniel Moreira Campos,,,:/home/a92553:/bin/bash
+a88790:x:1090:1006:Danilo Palacio Saboia,,,:/home/a88790:/bin/bash
+a87237:x:1091:1006:David Alexandre Fernandes Pinto,,,:/home/a87237:/bin/bash
+a92907:x:1097:1006:David Richard Moura Huber,,,:/home/a92907:/bin/bash
+a92467:x:1101:1006:Diogo Antonio Ribeiro Sousa,,,:/home/a92467:/bin/bash
+a88992:x:1104:1006:Diogo Filipe Pires Godinho,,,:/home/a88992:/bin/bash
+a93010:x:1105:1006:Diogo Fortunato Quadros Silva,,,:/home/a93010:/bin/bash
+a73088:x:1111:1006:Duarte Braamcamp de Oliveira Sarmento Pereira,,,:/home/a73088:/bin/bash
+a55002:x:1114:1006:Duarte Nuno Domingos Rebelo,,,:/home/a55002:/bin/bash
+a69172:x:1118:1006:Edgar Manuel Narciso Costa,,,:/home/a69172:/bin/bash
+a92941:x:1119:1006:Eduardo Correia Oliveira,,,:/home/a92941:/bin/bash
+a62117:x:1120:1006:Eduardo Daniel Antunes da Silva,,,:/home/a62117:/bin/bash
+a92880:x:1121:1006:Erica Yeranosyan Parracho,,,:/home/a92880:/bin/bash
+a89022:x:1122:1006:Faisal Alshawakh,,,:/home/a89022:/bin/bash
+a92489:x:1124:1006:Filipe Alexandre Garcia Silveira,,,:/home/a92489:/bin/bash
+a70033:x:1127:1006:Filipe Domingues Tavares da Silva Bernardino,,,:/home/a70033:/bin/bash
+a92971:x:1128:1006:Filipe Lourenco da Cunha Semiao,,,:/home/a92971:/bin/bash
+a92779:x:1130:1006:Francisco de Jesus Queiroz e Melo,,,:/home/a92779:/bin/bash
+a88978:x:1135:1006:Francisco Teixeira Marques Almeida Mendes,,,:/home/a88978:/bin/bash
+a92515:x:1136:1006:Francisco Teixeira Quintela,,,:/home/a92515:/bin/bash
+a87538:x:1137:1006:Frederico Carvalho Tainha,,,:/home/a87538:/bin/bash
+a92968:x:1141:1006:Gabriel Davila Petterle,,,:/home/a92968:/bin/bash
+a92514:x:1144:1006:Goncalo Afonso Martinho Gomes,,,:/home/a92514:/bin/bash
+a92418:x:1149:1006:Goncalo Correia Martins da Luz Costa,,,:/home/a92418:/bin/bash
+a87523:x:1151:1006:Goncalo Igor Rita Lourenco,,,:/home/a87523:/bin/bash
+a92600:x:1152:1006:Goncalo Lopes Rodrigues,,,:/home/a92600:/bin/bash
+a93075:x:1154:1006:Goncalo Nuno Costa Covas Lima,,,:/home/a93075:/bin/bash
+a72815:x:1155:1006:Goncalo Nuno Pao Mole Asper Simao,,,:/home/a72815:/bin/bash
+a92848:x:1162:1006:Guilherme Lopes Martins Sardinha,,,:/home/a92848:/bin/bash
+a78727:x:1164:1006:Guilherme Lourenco de Sousa dos Reis Ferreira,,,:/home/a78727:/bin/bash
+a93103:x:1165:1006:Guilherme Santos Costa de Almeida Fernandes,,,:/home/a93103:/bin/bash
+a87553:x:1168:1006:Helder de Brito Martins,,,:/home/a87553:/bin/bash
+a93540:x:1172:1006:Henrique Vieira de Sousa,,,:/home/a93540:/bin/bash
+a90262:x:1177:1006:Hugo Filipe de Almeida Marreiros,,,:/home/a90262:/bin/bash
+a93159:x:1178:1006:Hugo Manuel Mourato Coelho,,,:/home/a93159:/bin/bash
+a92820:x:1179:1006:Hugo Miguel da Silva Evora,,,:/home/a92820:/bin/bash
+a87679:x:1180:1006:Hugo Miguel Varandas Garcao,,,:/home/a87679:/bin/bash
+a88130:x:1185:1006:Ireneia Mota Fernandes,,,:/home/a88130:/bin/bash
+a92656:x:1189:1006:Joana Maria Duarte Grilo Goncalves Botelho,,,:/home/a92656:/bin/bash
+a93288:x:1190:1006:Joana Pinheiro Silva,,,:/home/a93288:/bin/bash
+a54763:x:1193:1006:Joao Daniel Sequeira Coelho,,,:/home/a54763:/bin/bash
+a92708:x:1194:1006:Joao Diogo Mendes Almeida Malanho,,,:/home/a92708:/bin/bash
+a92923:x:1197:1006:Joao Goncalo Ferreira Lopes,,,:/home/a92923:/bin/bash
+a82808:x:1199:1006:Joao Machado Duarte,,,:/home/a82808:/bin/bash
+a93903:x:1200:1006:Joao Manuel Augusto Ferreira,,,:/home/a93903:/bin/bash
+a92913:x:1201:1006:Joao Manuel de Castilho Fouto,,,:/home/a92913:/bin/bash
+a82919:x:1204:1006:Joao Miguel Sobral Santos,,,:/home/a82919:/bin/bash
+a35324:x:1206:1006:Joao Pedro Gomes Fernandes,,,:/home/a35324:/bin/bash
+a87292:x:1211:1006:Joao Tomas Codorniz Costa,,,:/home/a87292:/bin/bash
+a92394:x:1212:1006:Joao Vicente Rufino Reis Machado,,,:/home/a92394:/bin/bash
+a87401:x:1215:1006:Jose Carlos Oliveira Burecas,,,:/home/a87401:/bin/bash
+a83079:x:1216:1006:Jose Domingos Vila Moura Correia,,,:/home/a83079:/bin/bash
+a93957:x:1217:1006:Jose Maria Cardiga Henriques,,,:/home/a93957:/bin/bash
+a72983:x:1218:1006:Jose Miguel Baptista Mariquito,,,:/home/a72983:/bin/bash
+a92722:x:1220:1006:Jose Miguel Vidal Dias Reis Correia,,,:/home/a92722:/bin/bash
+a92906:x:1222:1006:Jose Pedro Loureiro Fernandes,,,:/home/a92906:/bin/bash
+a92506:x:1225:1006:Julio Miguel Teles de Sousa,,,:/home/a92506:/bin/bash
+a82518:x:1230:1006:Luis Marcelo Miguens Tavares,,,:/home/a82518:/bin/bash
+a88065:x:1243:1006:Margarida Maria dos Santos de Noronha,,,:/home/a88065:/bin/bash
+a92752:x:1247:1006:Maria Beatriz Ferreira Ribeiro,,,:/home/a92752:/bin/bash
+a68691:x:1248:1006:Maria Beatriz Romao Demetrio,,,:/home/a68691:/bin/bash
+a93183:x:1249:1006:Maria Ines de Sousa Eiro dos Santos Pereira,,,:/home/a93183:/bin/bash
+a87282:x:1256:1006:Mariana Lobato Goncalves,,,:/home/a87282:/bin/bash
+a93301:x:1259:1006:Marta Blanco Tavares,,,:/home/a93301:/bin/bash
+a92329:x:1262:1006:Matilde Frazao Duarte,,,:/home/a92329:/bin/bash
+a87858:x:1264:1006:Miguel Alexandre Duarte Simao,,,:/home/a87858:/bin/bash
+a82832:x:1268:1006:Miguel Castro Pina Nunes Baptista,,,:/home/a82832:/bin/bash
+a93316:x:1271:1006:Miguel da Silva Paulo Rato,,,:/home/a93316:/bin/bash
+a69999:x:1272:1006:Miguel de Moura Madeira Gouveia,,,:/home/a69999:/bin/bash
+a88753:x:1273:1006:Miguel dos Reis Videira Santos Guerreiro,,,:/home/a88753:/bin/bash
+a93481:x:1274:1006:Miguel Ferreira Mourato,,,:/home/a93481:/bin/bash
+a87942:x:1275:1006:Miguel Godinho Rodrigues,,,:/home/a87942:/bin/bash
+a83535:x:1280:1006:Mohamad Alzoubi,,,:/home/a83535:/bin/bash
+a88036:x:1282:1006:Nuno Filipe Breites Medroa,,,:/home/a88036:/bin/bash
+a90325:x:1283:1006:Nuno Jose Tavares Dias,,,:/home/a90325:/bin/bash
+a93355:x:1286:1006:Patricia Maria Gloria Ferreira,,,:/home/a93355:/bin/bash
+a88161:x:1289:1006:Paulo Miguel Coelho dos Santos,,,:/home/a88161:/bin/bash
+a92891:x:1295:1006:Pedro Duarte Carrondo Arsenio,,,:/home/a92891:/bin/bash
+a93248:x:1296:1006:Pedro Fernandes Espadinha,,,:/home/a93248:/bin/bash
+a87907:x:1297:1006:Pedro Forte Vicente,,,:/home/a87907:/bin/bash
+a92626:x:1298:1006:Pedro Manuel Martins Cortez,,,:/home/a92626:/bin/bash
+a93262:x:1300:1006:Pedro Miguel Chapuca Fernandes,,,:/home/a93262:/bin/bash
+a92598:x:1302:1006:Pedro Miguel Fernandes Francisco,,,:/home/a92598:/bin/bash
+a92767:x:1304:1006:Pedro Ricardo Freitas Coelho,,,:/home/a92767:/bin/bash
+a92770:x:1307:1006:Rafael Marques Mendes,,,:/home/a92770:/bin/bash
+a88403:x:1310:1006:Ranito Lopes da Silva Mendes,,,:/home/a88403:/bin/bash
+a92731:x:1313:1006:Raul Manuel Carrajola de Almeida Bartolo,,,:/home/a92731:/bin/bash
+a82836:x:1314:1006:Renato Rafael Navalho Rosa,,,:/home/a82836:/bin/bash
+a82993:x:1316:1006:Ricardo Marques Rodrigues,,,:/home/a82993:/bin/bash
+a33953:x:1319:1006:Ricardo Tuna Bernardo,,,:/home/a33953:/bin/bash
+a73515:x:1321:1006:Rita Gabriel Raposo,,,:/home/a73515:/bin/bash
+a78509:x:1323:1006:Rita Lima Ribeiro,,,:/home/a78509:/bin/bash
+a92462:x:1329:1006:Rodrigo Filipe Garcia Bras,,,:/home/a92462:/bin/bash
+a87272:x:1333:1006:Rodrigo Jose Faria Anselmo,,,:/home/a87272:/bin/bash
+a92910:x:1335:1006:Rodrigo Miguel Valerio Goncalves,,,:/home/a92910:/bin/bash
+a88047:x:1339:1006:Ruben Andre Santos Bento,,,:/home/a88047:/bin/bash
+a93529:x:1340:1006:Rui Afonso da Fonseca Soares da Costa,,,:/home/a93529:/bin/bash
+a87674:x:1341:1006:Rui Miguel Andrade Monteiro Antunes de Azevedo,,,:/home/a87674:/bin/bash
+a93307:x:1343:1006:Salvador Anselmo Lopes,,,:/home/a93307:/bin/bash
+a92415:x:1348:1006:Sebastiao Guerreiro Rodrigues Drago da Costa,,,:/home/a92415:/bin/bash
+a92866:x:1354:1006:Teresa Caetano Fernandes,,,:/home/a92866:/bin/bash
+a87289:x:1356:1006:Tiago Alcobia Principe,,,:/home/a87289:/bin/bash
+a93401:x:1357:1006:Tiago Alexandre Reis Silva Matias,,,:/home/a93401:/bin/bash
+a87884:x:1359:1006:Tiago Casinhas Inacio,,,:/home/a87884:/bin/bash
+a93139:x:1360:1006:Tiago da Silva Francisco,,,:/home/a93139:/bin/bash
+a79215:x:1362:1006:Tiago Filipe Antunes Fernandes,,,:/home/a79215:/bin/bash
+a87491:x:1366:1006:Tiago Luis Serra,,,:/home/a87491:/bin/bash
+a82828:x:1368:1006:Tiago Miguel da Silva Aires,,,:/home/a82828:/bin/bash
+a87734:x:1371:1006:Tiago Mo Zheng,,,:/home/a87734:/bin/bash
+a92498:x:1372:1006:Tiago Morais Santiago,,,:/home/a92498:/bin/bash
+a92358:x:1374:1006:Tiago Ribeiro de Matos,,,:/home/a92358:/bin/bash
+a93435:x:1377:1006:Tomas Alves Machado,,,:/home/a93435:/bin/bash
+a92580:x:1378:1006:Tomas Andre Lopes Mateus,,,:/home/a92580:/bin/bash
+a92884:x:1381:1006:Tomas Gabriel Patricio Mendonca Fernandes,,,:/home/a92884:/bin/bash
+a93911:x:1385:1006:Tomas Isidro Martins,,,:/home/a93911:/bin/bash
+a68727:x:1389:1006:Tomas Martins Ribeiro Diogo,,,:/home/a68727:/bin/bash
+a87900:x:1391:1006:Tomas Morais Andrade Salgueiro Rosa,,,:/home/a87900:/bin/bash
+a93024:x:1392:1006:Tomas Rafael Freitas Braga,,,:/home/a93024:/bin/bash
+a61005:x:1393:1006:Ugo Antonio Semedo Borges,,,:/home/a61005:/bin/bash
+a82688:x:1396:1006:Vasco Manuel Bento da Silva,,,:/home/a82688:/bin/bash
+a83547:x:1400:1006:Vitor Hugo Jovanelli,,,:/home/a83547:/bin/bash
+a87432:x:1401:1006:Vitoria Bandeira Lopes,,,:/home/a87432:/bin/bash
+a93040:x:1405:1006:Ines Mendonca Consolado,,,:/home/a93040:/bin/bash
+a92425:x:1406:1006:Joao Pedro Pinheiro Bicho,,,:/home/a92425:/bin/bash
+dummy_3:x:1210:1006:Dummy User 3,,,:/home/dummy_3:/bin/bash
+dummy_4:x:1229:1006:Dummy User 4,,,:/home/dummy_4:/bin/bash
+a93304:x:1411:1006:Luis Filipe Reis Aguiar Navarro Y Rosa,,,:/home/a93304:/bin/bash
+dummy_1:x:1163:1006:Dummy User 1,,,:/home/dummy_1:/bin/bash
+dummy_2:x:1294:1006:Dummy User 2,,,:/home/dummy_2:/bin/bash
+a93335:x:1412:1006:Joao Pedro Batista Raposo,,,:/home/a93335:/bin/bash
+a69980:x:1413:1006:Diogo Gil Pureza Reis,,,:/home/a69980:/bin/bash
+a69213:x:1416:1006:Andre Filipe Veras Matela,,,:/home/a69213:/bin/bash
+a66256:x:1420:1006:Paulo Alexandre D Almeida Abrantes Costa,,,:/home/a66256:/bin/bash
+msdias:x:1425:50:Miguel Sales Dias,,,:/home/msdias:/bin/bash
+alexpal:x:1426:50:Alexandre Almeida,,,:/home/alexpal:/bin/bash
+jcsilva:x:1427:50:João Carlos Silva,,,:/home/jcsilva:/bin/bash
+a37986:x:1429:1006:Miguel Alexandre de Matos Vieira,,,:/home/a37986:/bin/bash
+a39619:x:1430:1006:Fabio Rui Araujo da Silva,,,:/home/a39619:/bin/bash
+a60722:x:1431:1006:Diogo Filipe Mota da Costa,,,:/home/a60722:/bin/bash
+a60811:x:1433:1006:David Jose Parente Garcia,,,:/home/a60811:/bin/bash
+a65167:x:1434:1006:Rafael Moreira Romao Chaco,,,:/home/a65167:/bin/bash
+a65872:x:1435:1006:Vitor Manuel dos Santos Pereira,,,:/home/a65872:/bin/bash
+a69320:x:1436:1006:Miguel Tome dos Santos de Sa Lemos,,,:/home/a69320:/bin/bash
+a69383:x:1437:1006:Goncalo Dias Sequeira,,,:/home/a69383:/bin/bash
+a69479:x:1438:1006:Luis Emanuel Mateus de Pina,,,:/home/a69479:/bin/bash
+a73090:x:1439:1006:Joao Francisco Bras Frade,,,:/home/a73090:/bin/bash
+a78031:x:1442:1006:Pedro Henrique Cordeiro Rodrigues,,,:/home/a78031:/bin/bash
+a78105:x:1443:1006:Andre Filipe Gomes Castro da Silva,,,:/home/a78105:/bin/bash
+a80406:x:1445:1006:Joao Pedro de Sousa Lopes,,,:/home/a80406:/bin/bash
+a82301:x:1447:1006:Maria Joao da Silva Raimundo,,,:/home/a82301:/bin/bash
+a82337:x:1448:1006:Antonio Pedro de Miranda Ribeiro,,,:/home/a82337:/bin/bash
+a82641:x:1450:1006:Guilherme Diogo Padrao Perez,,,:/home/a82641:/bin/bash
+a82693:x:1452:1006:Bruno Manuel Goncalves Canico Antunes,,,:/home/a82693:/bin/bash
+a82782:x:1454:1006:Joao Pedro Oliveira Henrique,,,:/home/a82782:/bin/bash
+a83708:x:1457:1006:Jose Francisco Saraiva Flausino do Nascimento Cruz,,,:/home/a83708:/bin/bash
+a87187:x:1459:1006:Luis Rafael Relvas Cabral,,,:/home/a87187:/bin/bash
+a87400:x:1461:1006:Andre Garcia de Oliveira,,,:/home/a87400:/bin/bash
+a88078:x:1464:1006:Goncalo Afonso Quintal Goes Goncalves,,,:/home/a88078:/bin/bash
+a88080:x:1465:1006:Francisco Joao Rodrigues Alves,,,:/home/a88080:/bin/bash
+a88125:x:1467:1006:Joao Filipe Martins Vasconcelos,,,:/home/a88125:/bin/bash
+a90250:x:1472:1006:Tania Vanessa Rodrigues Barbosa,,,:/home/a90250:/bin/bash
+a90253:x:1473:1006:Venilson Alvarenga Ungo,,,:/home/a90253:/bin/bash
+a90258:x:1474:1006:Guilherme Victor Ribeiro,,,:/home/a90258:/bin/bash
+a90323:x:1476:1006:Aires Pinto Ramalho de Oliveira,,,:/home/a90323:/bin/bash
+a92349:x:1478:1006:Joao Pedro Pinto Correia,,,:/home/a92349:/bin/bash
+a92445:x:1479:1006:Eduardo Manuel Portela da Silva,,,:/home/a92445:/bin/bash
+a92471:x:1480:1006:Sergio Raimundo Y Perez,,,:/home/a92471:/bin/bash
+a92500:x:1481:1006:Nuno Miguel Tomeno de Velez Venancio,,,:/home/a92500:/bin/bash
+a92729:x:1483:1006:Rodrigo Silva Reis,,,:/home/a92729:/bin/bash
+a92940:x:1486:1006:Tomas Simoes Lopes,,,:/home/a92940:/bin/bash
+a93021:x:1487:1006:Pedro Guilherme Nunes Dias,,,:/home/a93021:/bin/bash
+a93052:x:1489:1006:David Silva Amaral Antunes,,,:/home/a93052:/bin/bash
+a93263:x:1492:1006:Diogo Pacheco dos Santos Soares,,,:/home/a93263:/bin/bash
+a93321:x:1493:1006:Joao Figueiredo Lopes Homem de Melo,,,:/home/a93321:/bin/bash
+a93352:x:1495:1006:Ricardo Miguel Pombo Goncalves Maruta,,,:/home/a93352:/bin/bash
+a93387:x:1496:1006:Filipe Emanuel Goncalves Torres,,,:/home/a93387:/bin/bash
+a93539:x:1500:1006:Yuran Orlando Mangane,,,:/home/a93539:/bin/bash
+a93563:x:1501:1006:Steicy Lopes Tavares,,,:/home/a93563:/bin/bash
+a93616:x:1502:1006:Andre Ferreira Barbosa,,,:/home/a93616:/bin/bash
+a93635:x:1503:1006:Antonio dos Santos Correia Mendes,,,:/home/a93635:/bin/bash
+a93833:x:1505:1006:Marcos Andrade Vieira,,,:/home/a93833:/bin/bash
+a93923:x:1507:1006:Antonio Miguel Lourenco Marques de Bandos Flor,,,:/home/a93923:/bin/bash
+a93928:x:1508:1006:Jose Maria Azenha de Jesus Silva,,,:/home/a93928:/bin/bash
+a93977:x:1509:1006:Manuel Joao Morais Veronica,,,:/home/a93977:/bin/bash
+a93997:x:1510:1006:Duarte Jacinto Gruner,,,:/home/a93997:/bin/bash
+a93998:x:1511:1006:Ahmed Emad Ahmed Mansour,,,:/home/a93998:/bin/bash
+a94118:x:1513:1006:Filipe Santos Silva,,,:/home/a94118:/bin/bash
+a94334:x:1514:1006:Jose Maria Moura dos Santos de Castro Caldeira,,,:/home/a94334:/bin/bash
+a94448:x:1516:1006:Cesar Augusto Calvao Gomes,,,:/home/a94448:/bin/bash
+a94455:x:1518:1006:Jose Eduardo Dionisio Palmeiro,,,:/home/a94455:/bin/bash
+a94642:x:1528:1006:Nuno Pina,,,:/home/a94642:/bin/bash
+a94856:x:1531:1006:Alvaro Cristino Horta,,,:/home/a94856:/bin/bash
+a95805:x:1534:1006:Marcio Filipe Cedros Fernandes,,,:/home/a95805:/bin/bash
+a96266:x:1539:1006:Miria Neydi Mangueira de Oliveira,,,:/home/a96266:/bin/bash
+a96421:x:1540:1006:Duarte Nuno de Amorim Fernandes Machado,,,:/home/a96421:/bin/bash
+a96501:x:1541:1006:Daniel Filipe Matias Fernandes Carapinha,,,:/home/a96501:/bin/bash
+a97949:x:1550:1006:Joao Pedro Borges da Silva,,,:/home/a97949:/bin/bash
+a97990:x:1557:1006:Joao Antonio Afonso,,,:/home/a97990:/bin/bash
+a98012:x:1563:1006:Pedro Luis Costa e Sousa Louceiro de Almeida,,,:/home/a98012:/bin/bash
+a98014:x:1565:1006:Tiago Garcia Pereira,,,:/home/a98014:/bin/bash
+a98074:x:1572:1006:Luis Bruno dos Santos Parreira,,,:/home/a98074:/bin/bash
+a98075:x:1573:1006:Ana Catarina Redondo Alves,,,:/home/a98075:/bin/bash
+a98105:x:1575:1006:Bruno Miguel Avelino Barreiros,,,:/home/a98105:/bin/bash
+a98281:x:1584:1006:Ines Sofia Povoa Santa Comba,,,:/home/a98281:/bin/bash
+a98401:x:1597:1006:Alexandre Miguel dos Santos Batista,,,:/home/a98401:/bin/bash
+a98443:x:1603:1006:Petrick Vanini Correia,,,:/home/a98443:/bin/bash
+a98450:x:1604:1006:Bruno Miguel Freire Pontes,,,:/home/a98450:/bin/bash
+a98458:x:1606:1006:Tomas Andre Horta Santos,,,:/home/a98458:/bin/bash
+a98468:x:1607:1006:Rodrigo de Castro Nunes,,,:/home/a98468:/bin/bash
+a98494:x:1613:1006:Carolina Varanda Roque,,,:/home/a98494:/bin/bash
+a98576:x:1621:1006:Goncalo Miguel Pereira de Jesus Silva,,,:/home/a98576:/bin/bash
+a98616:x:1631:1006:Bernardo Pinto Assuncao,,,:/home/a98616:/bin/bash
+a98622:x:1632:1006:Mohammad Sifat,,,:/home/a98622:/bin/bash
+a98627:x:1635:1006:Goncalo Marques Coelho Pantaleao,,,:/home/a98627:/bin/bash
+a98657:x:1643:1006:Rodrigo Pedro Andrade de Carvalho,,,:/home/a98657:/bin/bash
+a98678:x:1649:1006:Leandro Serigado Neves,,,:/home/a98678:/bin/bash
+a98743:x:1661:1006:Alexandre Miguel da Cruz Rodrigues Roque,,,:/home/a98743:/bin/bash
+a98745:x:1662:1006:Rodrigo Ferreira Camoes Sintra Silva,,,:/home/a98745:/bin/bash
+a98763:x:1666:1006:Kevin Rodrigues Borges,,,:/home/a98763:/bin/bash
+a98810:x:1680:1006:Afonso Emanuel Ferreira Candeias,,,:/home/a98810:/bin/bash
+a98812:x:1681:1006:Matheus Pereira Carneiro Leao Quintas,,,:/home/a98812:/bin/bash
+a98821:x:1684:1006:Miguel Guerreiro Reis,,,:/home/a98821:/bin/bash
+a98839:x:1688:1006:Diogo Constantino Muchelas,,,:/home/a98839:/bin/bash
+a98853:x:1692:1006:Antonio Vouga Ribeiro,,,:/home/a98853:/bin/bash
+a98861:x:1694:1006:Luis Manuel Negrais Pereira Aguiar Cardoso,,,:/home/a98861:/bin/bash
+a98876:x:1698:1006:Daniel Raul Goncalves Rodrigues,,,:/home/a98876:/bin/bash
+a98915:x:1705:1006:Heng Zheng,,,:/home/a98915:/bin/bash
+a98927:x:1708:1006:Dulce Helena Rocha Oliveira Marques da Costa,,,:/home/a98927:/bin/bash
+a98940:x:1712:1006:Manuel Leite de Azevedo Tome Quintas,,,:/home/a98940:/bin/bash
+a98942:x:1713:1006:Leandro Porto Ferreira,,,:/home/a98942:/bin/bash
+a98958:x:1716:1006:Guilherme Dias Santos,,,:/home/a98958:/bin/bash
+a98978:x:1719:1006:Lucas Correia Martins,,,:/home/a98978:/bin/bash
+a98980:x:1721:1006:Miguel Velez Brazao Martins de Brito,,,:/home/a98980:/bin/bash
+a99009:x:1726:1006:Rui Andre da Cruz Jesus,,,:/home/a99009:/bin/bash
+a99016:x:1727:1006:Gaspar Maria dos Santos e Silva Magalhaes Jorge,,,:/home/a99016:/bin/bash
+a99022:x:1729:1006:Tomas Carvalho Alves Judice Gamito,,,:/home/a99022:/bin/bash
+a99023:x:1730:1006:Alexandre Miguel Santos Silva,,,:/home/a99023:/bin/bash
+a99024:x:1731:1006:Pedro Alexandre Rodrigues Mendonca,,,:/home/a99024:/bin/bash
+a99037:x:1733:1006:Rafael Andre Glaziou Etelvino,,,:/home/a99037:/bin/bash
+a99061:x:1740:1006:Martim Oliveira Carvalho,,,:/home/a99061:/bin/bash
+a99087:x:1743:1006:Artur Jose Macano Nobre,,,:/home/a99087:/bin/bash
+a99115:x:1750:1006:Joao Sebastiao Saude Guimaraes,,,:/home/a99115:/bin/bash
+a99150:x:1761:1006:Edgar Marcos Quintino,,,:/home/a99150:/bin/bash
+a99153:x:1763:1006:Madalena Filipe Ferreira,,,:/home/a99153:/bin/bash
+a99163:x:1764:1006:Miguel Gois,,,:/home/a99163:/bin/bash
+a99198:x:1772:1006:Afonso da Silva Taveira,,,:/home/a99198:/bin/bash
+a99201:x:1773:1006:Daniel Loureiro Freitas da Guerra Maio,,,:/home/a99201:/bin/bash
+a99220:x:1781:1006:Joana Margarida Campos Lopes,,,:/home/a99220:/bin/bash
+a99227:x:1784:1006:Tomas Lourenco Pinto Catarino,,,:/home/a99227:/bin/bash
+a99249:x:1786:1006:Eduardo Ruivo de Oliveira Carrasqueira,,,:/home/a99249:/bin/bash
+a99263:x:1789:1006:Duarte Francisco Cagarrinha,,,:/home/a99263:/bin/bash
+a99335:x:1801:1006:Filipe Farias Rego,,,:/home/a99335:/bin/bash
+a99351:x:1802:1006:Goncalo Alexandre Reis Silva Matias,,,:/home/a99351:/bin/bash
+a99377:x:1812:1006:Leonardo Manuel Reis Pinto Andrade,,,:/home/a99377:/bin/bash
+a99379:x:1813:1006:Pedro Trogeira Cruz,,,:/home/a99379:/bin/bash
+a99381:x:1814:1006:Mariana Silva Marques,,,:/home/a99381:/bin/bash
+a99397:x:1816:1006:Marta Valadao Pereira,,,:/home/a99397:/bin/bash
+a99444:x:1822:1006:Nelson Mendonca Elias Barao,,,:/home/a99444:/bin/bash
+a99501:x:1826:1006:Andre Silva Faria Goncalves,,,:/home/a99501:/bin/bash
+a99594:x:1831:1006:Lenik Rodrigues,,,:/home/a99594:/bin/bash
+a99802:x:1835:1006:Ines Beites Vale,,,:/home/a99802:/bin/bash
+a99845:x:1836:1006:Marin Mindru,,,:/home/a99845:/bin/bash
+a99914:x:1840:1006:Diogo Pereira Malta da Silva,,,:/home/a99914:/bin/bash
+a99917:x:1841:1006:Afonso Miguel Pomposo Carolo,,,:/home/a99917:/bin/bash
+a99938:x:1843:1006:Bernardo Pereira Mendes,,,:/home/a99938:/bin/bash
+a99980:x:1844:1006:Pedro Oriakhi,,,:/home/a99980:/bin/bash
+a100015:x:1846:1006:Pedro de Jesus Pereira Ferraz,,,:/home/a100015:/bin/bash
+a94255:x:1583:1006:Mauro Daniel Ribeiro Fortes,,,:/home/a94255:/bin/bash
+nunogarrido:x:1850:50:Nuno Garrido,,,:/home/nunogarrido:/bin/bash
+jasalvador:x:1851:50:José Salvador,,,:/home/jasalvador:/bin/bash
+a105067:x:1015:1006:Roberto Jose Adomnitei,,,:/home/a105067:/bin/bash
+a104624:x:1017:1006:Tiago Afonso Afonseca,,,:/home/a104624:/bin/bash
+a104817:x:1019:1006:Joana da Afonso,,,:/home/a104817:/bin/bash
+a103966:x:1020:1006:Lwena Ferreira Africano,,,:/home/a103966:/bin/bash
+a105058:x:1022:1006:Tomas Jacinto Agostinho,,,:/home/a105058:/bin/bash
+a105451:x:1024:1006:Francisco Valy Aguiar,,,:/home/a105451:/bin/bash
+a100537:x:1025:1006:Diogo Miguel Almeida,,,:/home/a100537:/bin/bash
+a103697:x:1026:1006:Filipe Albuquerque Almeida,,,:/home/a103697:/bin/bash
+a104631:x:1027:1006:Tomas Monteiro Alves,,,:/home/a104631:/bin/bash
+a104819:x:1028:1006:Vasco Lopes Alves,,,:/home/a104819:/bin/bash
+a103678:x:1029:1006:Diana Andreia Amaro,,,:/home/a103678:/bin/bash
+a100536:x:1032:1006:Diogo Alexandre Andre,,,:/home/a100536:/bin/bash
+a105521:x:1034:1006:Joao Pedro Andre,,,:/home/a105521:/bin/bash
+a105327:x:1035:1006:Joao Duarte Andres,,,:/home/a105327:/bin/bash
+a105014:x:1039:1006:Duarte Ferreira Antunes,,,:/home/a105014:/bin/bash
+a105893:x:1042:1006:Vasco Colaco Araujo,,,:/home/a105893:/bin/bash
+a105864:x:1043:1006:Claudia Quintas Arevalo,,,:/home/a105864:/bin/bash
+a104980:x:1045:1006:Ricardo Henrique Arocha,,,:/home/a104980:/bin/bash
+a102715:x:1046:1006:Marcelo Kuhn Assis,,,:/home/a102715:/bin/bash
+a105314:x:1050:1006:Rita Rosado Azevedo,,,:/home/a105314:/bin/bash
+a105340:x:1051:1006:Diogo Lavareda Baixinho,,,:/home/a105340:/bin/bash
+a104670:x:1052:1006:Vasco Mendes Baleia,,,:/home/a104670:/bin/bash
+a105901:x:1055:1006:Filipe Granja Baltazar,,,:/home/a105901:/bin/bash
+a105248:x:1057:1006:Vitor dos Barbosa,,,:/home/a105248:/bin/bash
+a105467:x:1058:1006:Diogo Alexandre Barao,,,:/home/a105467:/bin/bash
+a105333:x:1059:1006:Francisca Silva Bastos,,,:/home/a105333:/bin/bash
+a105450:x:1060:1006:Rodrigo Nuno Batista,,,:/home/a105450:/bin/bash
+a104759:x:1061:1006:Catarina Abranches Belo,,,:/home/a104759:/bin/bash
+a104661:x:1062:1006:Diogo Lourenco Bento,,,:/home/a104661:/bin/bash
+a105885:x:1063:1006:Simao Martins Bento,,,:/home/a105885:/bin/bash
+a105147:x:1065:1006:Guilherme Fernandes Borrega,,,:/home/a105147:/bin/bash
+a105297:x:1066:1006:Antonio Miguel Branco,,,:/home/a105297:/bin/bash
+a104727:x:1069:1006:Joao Diogo Branco,,,:/home/a104727:/bin/bash
+a105113:x:1071:1006:Joao Augusto Brandao,,,:/home/a105113:/bin/bash
+a105416:x:1072:1006:Teresa Ferreira Brito,,,:/home/a105416:/bin/bash
+a100503:x:1074:1006:Ana Isabel Bras,,,:/home/a100503:/bin/bash
+a104723:x:1075:1006:Daniel Moreira Cabeleira,,,:/home/a104723:/bin/bash
+a104000:x:1076:1006:Goncalo Miguel Cabo,,,:/home/a104000:/bin/bash
+a105418:x:1077:1006:Francisco Moreira Cabral,,,:/home/a105418:/bin/bash
+a105883:x:1078:1006:Afonso Miguel Calcinha,,,:/home/a105883:/bin/bash
+a105882:x:1079:1006:Martim Filipe Calcinha,,,:/home/a105882:/bin/bash
+a105088:x:1082:1006:Alessandro Costa Campagna,,,:/home/a105088:/bin/bash
+a105858:x:1083:1006:Miguel Neto Campos,,,:/home/a105858:/bin/bash
+a104715:x:1084:1006:Mariana de Capela,,,:/home/a104715:/bin/bash
+a105065:x:1085:1006:Andre Caraus,,,:/home/a105065:/bin/bash
+a105151:x:1088:1006:Antonio Pedro Cardoso,,,:/home/a105151:/bin/bash
+a105353:x:1089:1006:Joao Carlos Cardoso,,,:/home/a105353:/bin/bash
+a100758:x:1092:1006:Maria Ines Carmo,,,:/home/a100758:/bin/bash
+a97934:x:1093:1006:Eduardo Guerreiro Carneiro,,,:/home/a97934:/bin/bash
+a103953:x:1094:1006:Joao Pedro Carvalho,,,:/home/a103953:/bin/bash
+a103945:x:1095:1006:Ricardo Jorge Carvalho,,,:/home/a103945:/bin/bash
+a105027:x:1096:1006:Conceicao Nicole Chaves,,,:/home/a105027:/bin/bash
+a105691:x:1098:1006:Mohamad Riyaan Chhabu,,,:/home/a105691:/bin/bash
+a105213:x:1099:1006:Antonio Pombeiro Chumbo,,,:/home/a105213:/bin/bash
+a105459:x:1100:1006:Francisco Machado Coelho,,,:/home/a105459:/bin/bash
+a105044:x:1102:1006:Joana Mateus Coelho,,,:/home/a105044:/bin/bash
+a104974:x:1103:1006:Joao Filipe Consolado,,,:/home/a104974:/bin/bash
+a26188:x:1106:1006:Joao Carlos Cordeiro,,,:/home/a26188:/bin/bash
+a105326:x:1107:1006:Francisco Joao Correia,,,:/home/a105326:/bin/bash
+a88142:x:1108:1006:Guilherme Manuel Correia,,,:/home/a88142:/bin/bash
+a104655:x:1109:1006:Miguel Angelo Correia,,,:/home/a104655:/bin/bash
+a104569:x:1110:1006:Diogo Miguel Costa,,,:/home/a104569:/bin/bash
+a105530:x:1112:1006:Joao Pedro Costa,,,:/home/a105530:/bin/bash
+a104949:x:1113:1006:Leonardo dos Costa,,,:/home/a104949:/bin/bash
+a103988:x:1115:1006:Luis Miguel Costa,,,:/home/a103988:/bin/bash
+a105370:x:1116:1006:Tomas Cerqueira Costa,,,:/home/a105370:/bin/bash
+a104565:x:1117:1006:Afonso Miguel Coutinho,,,:/home/a104565:/bin/bash
+a105341:x:1123:1006:Goncalo de Couto,,,:/home/a105341:/bin/bash
+a104687:x:1125:1006:Sofia Beatriz Couto,,,:/home/a104687:/bin/bash
+a100313:x:1126:1006:Joao Pedro Cruz,,,:/home/a100313:/bin/bash
+a105332:x:1129:1006:Mauro Alexandre Cruz,,,:/home/a105332:/bin/bash
+a105229:x:1131:1006:Dario Santos Cunha,,,:/home/a105229:/bin/bash
+a104999:x:1132:1006:Manuel Romao Cunha,,,:/home/a104999:/bin/bash
+a105361:x:1133:1006:Rafael Maria Coias,,,:/home/a105361:/bin/bash
+a104937:x:1134:1006:Filipe Almeida Delmotte,,,:/home/a104937:/bin/bash
+a105587:x:1138:1006:Kevin Paresh Dhirajlal,,,:/home/a105587:/bin/bash
+a102465:x:1139:1006:Salifo Diallo,,,:/home/a102465:/bin/bash
+a104812:x:1140:1006:Margarida Sofia Dias,,,:/home/a104812:/bin/bash
+a104647:x:1142:1006:Henrique Maria Domingos,,,:/home/a104647:/bin/bash
+a105006:x:1143:1006:Teresa Maria Domingos,,,:/home/a105006:/bin/bash
+a104646:x:1145:1006:Filipe David Duarte,,,:/home/a104646:/bin/bash
+a105131:x:1146:1006:Joao Guilherme Duarte,,,:/home/a105131:/bin/bash
+a104747:x:1147:1006:Pedro Alexandre Duarte,,,:/home/a104747:/bin/bash
+a105069:x:1148:1006:Rodrigo Miguel Duarte,,,:/home/a105069:/bin/bash
+a105854:x:1150:1006:Tomas Rosa Duarte,,,:/home/a105854:/bin/bash
+a104983:x:1153:1006:Goncalo Maria Esteves,,,:/home/a104983:/bin/bash
+a105276:x:1156:1006:Rodrigo Fonseca Faccini,,,:/home/a105276:/bin/bash
+a104694:x:1157:1006:Joao Pedro Fajardo,,,:/home/a104694:/bin/bash
+a105638:x:1158:1006:Rui Miguel Falcao,,,:/home/a105638:/bin/bash
+a105263:x:1159:1006:Tiago Ramos Faria,,,:/home/a105263:/bin/bash
+a105084:x:1160:1006:Emanuel Fernandes,,,:/home/a105084:/bin/bash
+a104956:x:1161:1006:Filipe de Fernandes,,,:/home/a104956:/bin/bash
+a105109:x:1166:1006:Hugo Tomas Fernandes,,,:/home/a105109:/bin/bash
+a100316:x:1167:1006:Joao Antonio Fernandes,,,:/home/a100316:/bin/bash
+a104703:x:1169:1006:Daniel Ciriaco Ferreira,,,:/home/a104703:/bin/bash
+a105570:x:1170:1006:Duarte Maria Ferreira,,,:/home/a105570:/bin/bash
+a105983:x:1171:1006:Francisco Maria Ferreira,,,:/home/a105983:/bin/bash
+a105461:x:1173:1006:Ines da Ferreira,,,:/home/a105461:/bin/bash
+a105409:x:1174:1006:Joao Pedro Ferreira,,,:/home/a105409:/bin/bash
+a104582:x:1175:1006:Pedro Miguel Ferreira,,,:/home/a104582:/bin/bash
+a104859:x:1181:1006:Salvador Caldeira Ferreira,,,:/home/a104859:/bin/bash
+a104836:x:1182:1006:Tiago Alves Ferreira,,,:/home/a104836:/bin/bash
+a105473:x:1183:1006:Tomas Gomes Ferreira,,,:/home/a105473:/bin/bash
+a104748:x:1184:1006:Vasco Vaz Fidanza,,,:/home/a104748:/bin/bash
+a39408:x:1186:1006:Carlos Miguel Figueiredo,,,:/home/a39408:/bin/bash
+a69164:x:1187:1006:Goncalo Miguel Figueiredo,,,:/home/a69164:/bin/bash
+a100502:x:1188:1006:Paulo Ricardo Filipe,,,:/home/a100502:/bin/bash
+a105173:x:1191:1006:Luis Nuno Gaspar,,,:/home/a105173:/bin/bash
+a104994:x:1192:1006:Marta Marujo Gaspar,,,:/home/a104994:/bin/bash
+a100475:x:1195:1006:Ruben da Gaspar,,,:/home/a100475:/bin/bash
+a105231:x:1196:1006:Vasco Barreto Gaspar,,,:/home/a105231:/bin/bash
+a105455:x:1198:1006:Vasco Maria Gaspar,,,:/home/a105455:/bin/bash
+a105273:x:1202:1006:Beatriz Lourenco Geraldes,,,:/home/a105273:/bin/bash
+a65046:x:1203:1006:Ricardo Jorge Gil,,,:/home/a65046:/bin/bash
+a105303:x:1205:1006:Joao Saldanha Giao,,,:/home/a105303:/bin/bash
+a104689:x:1207:1006:Diogo Francisco Godinho,,,:/home/a104689:/bin/bash
+a104558:x:1208:1006:Jorge Miguel Gomes,,,:/home/a104558:/bin/bash
+a105051:x:1209:1006:Mariana Grangeia Gomes,,,:/home/a105051:/bin/bash
+a105718:x:1213:1006:Nelio de Gomes,,,:/home/a105718:/bin/bash
+a105408:x:1214:1006:Tomas Ferreira Gomes,,,:/home/a105408:/bin/bash
+a105546:x:1219:1006:Joana Amaral Gouveia,,,:/home/a105546:/bin/bash
+a105062:x:1221:1006:Ricardo Miguel Gouveia,,,:/home/a105062:/bin/bash
+a104992:x:1223:1006:Joao Monteiro Gregorio,,,:/home/a104992:/bin/bash
+a105223:x:1224:1006:Matilde Germino Grossinho,,,:/home/a105223:/bin/bash
+a103974:x:1226:1006:Rafael da Guedes,,,:/home/a103974:/bin/bash
+a105345:x:1227:1006:Frederico Afonso Hamann,,,:/home/a105345:/bin/bash
+a104891:x:1228:1006:Vasco Moura Horta,,,:/home/a104891:/bin/bash
+a105348:x:1231:1006:Sara Lopes Ibrahimo,,,:/home/a105348:/bin/bash
+a101965:x:1232:1006:Claudio Alberto Isside,,,:/home/a101965:/bin/bash
+a66996:x:1233:1006:Priyal Jaiandra Jivan,,,:/home/a66996:/bin/bash
+a105876:x:1234:1006:Bernardo Novella Jorge,,,:/home/a105876:/bin/bash
+a104704:x:1235:1006:Diogo Alves Juncal,,,:/home/a104704:/bin/bash
+a105700:x:1236:1006:Figueiredo Rodrigues Junior,,,:/home/a105700:/bin/bash
+a103495:x:1237:1006:Alberto Luis Junior,,,:/home/a103495:/bin/bash
+a106268:x:1238:1006:Saifullah Khan,,,:/home/a106268:/bin/bash
+a104676:x:1239:1006:Nuno Lourenco Lages,,,:/home/a104676:/bin/bash
+a103961:x:1240:1006:Vicente Meneses Laia,,,:/home/a103961:/bin/bash
+a105629:x:1241:1006:Richard Allen Langa,,,:/home/a105629:/bin/bash
+a106495:x:1242:1006:Richard Allen Langa,,,:/home/a106495:/bin/bash
+a105167:x:1244:1006:Gabriel Henriques Lebre,,,:/home/a105167:/bin/bash
+a105157:x:1245:1006:Diego Jose Ledesma,,,:/home/a105157:/bin/bash
+a105493:x:1246:1006:Henrique Almeida Leitao,,,:/home/a105493:/bin/bash
+a90271:x:1250:1006:Paulo Henrique Lima,,,:/home/a90271:/bin/bash
+a105274:x:1251:1006:Rui Pedro Lima,,,:/home/a105274:/bin/bash
+a104800:x:1252:1006:Tiago Luis Linares,,,:/home/a104800:/bin/bash
+a105475:x:1253:1006:Tiago Alexandre Lobo,,,:/home/a105475:/bin/bash
+a104684:x:1254:1006:Tiago Agostinho Longle,,,:/home/a104684:/bin/bash
+a105330:x:1255:1006:Guilherme Fernandes Lopes,,,:/home/a105330:/bin/bash
+a104691:x:1257:1006:Guilherme Henrique Lopes,,,:/home/a104691:/bin/bash
+a105558:x:1258:1006:Mafalda Dias Lopes,,,:/home/a105558:/bin/bash
+a105255:x:1260:1006:Miguel Santana Lopes,,,:/home/a105255:/bin/bash
+a105098:x:1261:1006:Mario Ricardo Lopes,,,:/home/a105098:/bin/bash
+a104822:x:1263:1006:Ricardo Amado Lopes,,,:/home/a104822:/bin/bash
+a105404:x:1265:1006:Tiago Alexandre Lopes,,,:/home/a105404:/bin/bash
+a105472:x:1266:1006:William Breadner Lopes,,,:/home/a105472:/bin/bash
+a105292:x:1267:1006:Ricardo Nogueira Loureiro,,,:/home/a105292:/bin/bash
+a104849:x:1269:1006:Tiago Represas Loureiro,,,:/home/a104849:/bin/bash
+a73419:x:1270:1006:Goncalo Vieira Lourenco,,,:/home/a73419:/bin/bash
+a93474:x:1276:1006:Helder Joao Lourenco,,,:/home/a93474:/bin/bash
+a104931:x:1277:1006:Joao Alexandre Lourenco,,,:/home/a104931:/bin/bash
+a104632:x:1278:1006:Joao Teixeira Lourenco,,,:/home/a104632:/bin/bash
+a104870:x:1279:1006:Tomas Lucio Lourenco,,,:/home/a104870:/bin/bash
+a105234:x:1281:1006:Tiago Queiroz Louro,,,:/home/a105234:/bin/bash
+a105309:x:1284:1006:Francisco Correia Luz,,,:/home/a105309:/bin/bash
+a105699:x:1285:1006:Yuran Armando Macaenda,,,:/home/a105699:/bin/bash
+a104669:x:1287:1006:Joao Luis Macedo,,,:/home/a104669:/bin/bash
+a105407:x:1288:1006:Sergio Pedro Machado,,,:/home/a105407:/bin/bash
+a105280:x:1290:1006:David Mourato Machuqueiro,,,:/home/a105280:/bin/bash
+a38076:x:1291:1006:Mihaela Madalina Macovei,,,:/home/a38076:/bin/bash
+a105498:x:1292:1006:Luis Carlos Manteigas,,,:/home/a105498:/bin/bash
+a65081:x:1293:1006:Andre Martins Marciano,,,:/home/a65081:/bin/bash
+a105388:x:1299:1006:Guilherme Costa Marcondes,,,:/home/a105388:/bin/bash
+a105525:x:1301:1006:Eduardo Henrique Marinotti,,,:/home/a105525:/bin/bash
+a105421:x:1303:1006:Alexandre Guerreiro Marques,,,:/home/a105421:/bin/bash
+a104562:x:1305:1006:Guilherme Lampreia Marques,,,:/home/a104562:/bin/bash
+a105377:x:1306:1006:Joao Pedro Marques,,,:/home/a105377:/bin/bash
+a94869:x:1311:1006:Sara Manuela Marques,,,:/home/a94869:/bin/bash
+a104555:x:1312:1006:Vasco Marques,,,:/home/a104555:/bin/bash
+a105441:x:1315:1006:Francisco Mateus Martelo,,,:/home/a105441:/bin/bash
+a104692:x:1317:1006:Pedro Henrique Martinho,,,:/home/a104692:/bin/bash
+a104850:x:1318:1006:Andre Cardoso Martins,,,:/home/a104850:/bin/bash
+a104524:x:1320:1006:Fatima Luisa Martins,,,:/home/a104524:/bin/bash
+a104734:x:1322:1006:Luana Isabel Martins,,,:/home/a104734:/bin/bash
+a105917:x:1324:1006:Miguel Ferreira Martins,,,:/home/a105917:/bin/bash
+a105328:x:1325:1006:Patricia Raquel Martins,,,:/home/a105328:/bin/bash
+a105056:x:1326:1006:Tiago Baptista Martins,,,:/home/a105056:/bin/bash
+a105460:x:1327:1006:Vasco Miguel Martins,,,:/home/a105460:/bin/bash
+a105617:x:1328:1006:Eric Miguel Mascarenhas,,,:/home/a105617:/bin/bash
+a106558:x:1330:1006:Kenete Manuel Mathe,,,:/home/a106558:/bin/bash
+a105216:x:1331:1006:Joao Tomas Matias,,,:/home/a105216:/bin/bash
+a105199:x:1332:1006:Rodrigo Domingues Matias,,,:/home/a105199:/bin/bash
+a94476:x:1334:1006:Filipa Carapinha Mela,,,:/home/a94476:/bin/bash
+a100748:x:1336:1006:Andre Goncalo Mendes,,,:/home/a100748:/bin/bash
+a103234:x:1337:1006:Diblo Jose Mendes,,,:/home/a103234:/bin/bash
+a105379:x:1338:1006:Jose Gomes Mendes,,,:/home/a105379:/bin/bash
+a105007:x:1342:1006:Francisco Jose Miguel,,,:/home/a105007:/bin/bash
+a104679:x:1344:1006:Pedro Martim Miguel,,,:/home/a104679:/bin/bash
+a105946:x:1345:1006:Alexandre Cortez Milharado,,,:/home/a105946:/bin/bash
+a105411:x:1346:1006:Ricardo Alex Minascurta,,,:/home/a105411:/bin/bash
+a104919:x:1347:1006:Goncalo Andre Miranda,,,:/home/a104919:/bin/bash
+a104601:x:1350:1006:Miguel Rodrigues Miranda,,,:/home/a104601:/bin/bash
+a105080:x:1351:1006:Diogo Soares Moita,,,:/home/a105080:/bin/bash
+a105099:x:1352:1006:Joao Silveira Monteiro,,,:/home/a105099:/bin/bash
+a104962:x:1353:1006:Luciano Rafael Monteiro,,,:/home/a104962:/bin/bash
+a104583:x:1355:1006:Matilde Dourado Monteiro,,,:/home/a104583:/bin/bash
+a105275:x:1358:1006:Henrique Correa Moraes,,,:/home/a105275:/bin/bash
+a104720:x:1361:1006:Filipe Alexandre Morais,,,:/home/a104720:/bin/bash
+a105933:x:1363:1006:Francisco Luis Morais,,,:/home/a105933:/bin/bash
+a105504:x:1364:1006:Guilherme Nuno Moreira,,,:/home/a105504:/bin/bash
+a86908:x:1365:1006:Paula Teixeira Moreira,,,:/home/a86908:/bin/bash
+a105282:x:1367:1006:Diogo Conde Moura,,,:/home/a105282:/bin/bash
+a105242:x:1369:1006:Ruben Lino Moura,,,:/home/a105242:/bin/bash
+a105252:x:1370:1006:Vasco Cayola Moura,,,:/home/a105252:/bin/bash
+a104578:x:1373:1006:Laura Pinheiro Moutinho,,,:/home/a104578:/bin/bash
+a105540:x:1375:1006:Ulisses Alexandre Nascimento,,,:/home/a105540:/bin/bash
+a105506:x:1376:1006:Ricardo Jorge Neves,,,:/home/a105506:/bin/bash
+a93396:x:1379:1006:Andre Miguel Nunes,,,:/home/a93396:/bin/bash
+a104714:x:1380:1006:Diogo Miguel Nunes,,,:/home/a104714:/bin/bash
+a105532:x:1382:1006:Antonio Jorge Nunzio,,,:/home/a105532:/bin/bash
+a105368:x:1383:1006:David Lopes Oliveira,,,:/home/a105368:/bin/bash
+a104821:x:1384:1006:Joao Pedro Oliveira,,,:/home/a104821:/bin/bash
+a104637:x:1386:1006:Maria Ines Oliveira,,,:/home/a104637:/bin/bash
+a104904:x:1387:1006:Oliver Perboni Oliveira,,,:/home/a104904:/bin/bash
+a105553:x:1388:1006:Ricardo Vidal Oliveira,,,:/home/a105553:/bin/bash
+a104366:x:1390:1006:Tiago Vieira Oliveira,,,:/home/a104366:/bin/bash
+a105317:x:1394:1006:Tomas Santamaria Oliveira,,,:/home/a105317:/bin/bash
+a105645:x:1395:1006:Nuno Filipe Onofre,,,:/home/a105645:/bin/bash
+a105017:x:1397:1006:Afonso Paulino Padinha,,,:/home/a105017:/bin/bash
+a100534:x:1402:1006:Goncalo Vilaboim Painhas,,,:/home/a100534:/bin/bash
+a105215:x:1403:1006:Beatriz Enes Pais,,,:/home/a105215:/bin/bash
+a105121:x:1404:1006:David Pereira Palhas,,,:/home/a105121:/bin/bash
+a104975:x:1407:1006:Beatriz Viveiros Palma,,,:/home/a104975:/bin/bash
+a104969:x:1408:1006:Joao Miguel Palma,,,:/home/a104969:/bin/bash
+a104991:x:1409:1006:Salvador Wahnon Palma,,,:/home/a104991:/bin/bash
+a104741:x:1410:1006:Rafael de Pardal,,,:/home/a104741:/bin/bash
+a105363:x:1414:1006:Luis Alexandre Parodi,,,:/home/a105363:/bin/bash
+a105489:x:1417:1006:Manuel Bettencourt Parreira,,,:/home/a105489:/bin/bash
+a105291:x:1418:1006:Tiago Jantarada Patricio,,,:/home/a105291:/bin/bash
+a100838:x:1419:1006:Mario Fontes Pedrosa,,,:/home/a100838:/bin/bash
+a104686:x:1421:1006:Afonso da Pereira,,,:/home/a104686:/bin/bash
+a104853:x:1422:1006:Pedro Barros Pereira,,,:/home/a104853:/bin/bash
+a105250:x:1423:1006:Rodrigo Silva Pereira,,,:/home/a105250:/bin/bash
+a104638:x:1424:1006:Tomas Leal Pereira,,,:/home/a104638:/bin/bash
+a104824:x:1432:1006:Tomas Ribeiro Pereira,,,:/home/a104824:/bin/bash
+a104965:x:1440:1006:Joana Filipa Piedade,,,:/home/a104965:/bin/bash
+a105448:x:1441:1006:David Miguel Pinheiro,,,:/home/a105448:/bin/bash
+a105647:x:1444:1006:Guilherme Nobre Pires,,,:/home/a105647:/bin/bash
+a102576:x:1446:1006:Pablo Fernandez Pita,,,:/home/a102576:/bin/bash
+a104966:x:1449:1006:Oleh Polishchuk,,,:/home/a104966:/bin/bash
+a103312:x:1451:1006:Samuel Panzo Quiala,,,:/home/a103312:/bin/bash
+a105446:x:1453:1006:Afonso Maria Ramos,,,:/home/a105446:/bin/bash
+a105281:x:1455:1006:Miguel Mira Ramos,,,:/home/a105281:/bin/bash
+a100745:x:1456:1006:Pedro Manuel Ramos,,,:/home/a100745:/bin/bash
+a105904:x:1458:1006:Francisco Jose Raposo,,,:/home/a105904:/bin/bash
+a104923:x:1460:1006:Duarte Andre Reforco,,,:/home/a104923:/bin/bash
+a100516:x:1462:1006:Flavio Daniel Reis,,,:/home/a100516:/bin/bash
+a105434:x:1463:1006:Alexandre da Ribeiro,,,:/home/a105434:/bin/bash
+a103955:x:1466:1006:Diogo Constantino Ribeiro,,,:/home/a103955:/bin/bash
+a102274:x:1468:1006:Jose Eduardo Ribeiro,,,:/home/a102274:/bin/bash
+a103614:x:1469:1006:Maira Airine Ribeiro,,,:/home/a103614:/bin/bash
+a105159:x:1470:1006:Pedro Rodrigues Ribeiro,,,:/home/a105159:/bin/bash
+a105415:x:1471:1006:Salvador Maria Ribeiro,,,:/home/a105415:/bin/bash
+a104951:x:1475:1006:Tomas Goncalves Ribeiro,,,:/home/a104951:/bin/bash
+a103707:x:1477:1006:Joao Afonso Rio,,,:/home/a103707:/bin/bash
+a105260:x:1482:1006:Alexandre Mamede Rodrigues,,,:/home/a105260:/bin/bash
+a100533:x:1484:1006:Ivo Miguel Rodrigues,,,:/home/a100533:/bin/bash
+a105149:x:1485:1006:Joana Sofia Rodrigues,,,:/home/a105149:/bin/bash
+a104662:x:1488:1006:Joao Afonso Rodrigues,,,:/home/a104662:/bin/bash
+a100744:x:1490:1006:Filipa Santos Romao,,,:/home/a100744:/bin/bash
+a105202:x:1491:1006:Tiago Reis Romao,,,:/home/a105202:/bin/bash
+a105358:x:1494:1006:Bernardo Luis Rosa,,,:/home/a105358:/bin/bash
+a104959:x:1497:1006:Jose Pedro Rosa,,,:/home/a104959:/bin/bash
+a92208:x:1498:1006:Andre Hernandez Rosado,,,:/home/a92208:/bin/bash
+a105005:x:1499:1006:Mariana Martins Rosario,,,:/home/a105005:/bin/bash
+a105230:x:1504:1006:Donaldino Marcelino Saldanha,,,:/home/a105230:/bin/bash
+a104015:x:1506:1006:Ines Giao Sampaio,,,:/home/a104015:/bin/bash
+a105306:x:1512:1006:Pedro Parente Santa,,,:/home/a105306:/bin/bash
+a103956:x:1515:1006:Alexandre Bruno Santiago,,,:/home/a103956:/bin/bash
+a102669:x:1517:1006:Caua Moreira Santos,,,:/home/a102669:/bin/bash
+a105646:x:1519:1006:David Joao Santos,,,:/home/a105646:/bin/bash
+a105082:x:1520:1006:Joao Cova Santos,,,:/home/a105082:/bin/bash
+a104712:x:1521:1006:Joao Miguel Santos,,,:/home/a104712:/bin/bash
+a105122:x:1522:1006:Lourenco de Santos,,,:/home/a105122:/bin/bash
+a105322:x:1523:1006:Matilde de Santos,,,:/home/a105322:/bin/bash
+a105585:x:1524:1006:Rafael Marques Santos,,,:/home/a105585:/bin/bash
+a105133:x:1525:1006:Tomas de Santos,,,:/home/a105133:/bin/bash
+a105350:x:1526:1006:Tomas Evora Santos,,,:/home/a105350:/bin/bash
+a105567:x:1527:1006:Joao Batista Sequeira,,,:/home/a105567:/bin/bash
+a104660:x:1529:1006:Barbara Guimas Serrano,,,:/home/a104660:/bin/bash
+a103708:x:1530:1006:Alexandre Rafael Silva,,,:/home/a103708:/bin/bash
+a105126:x:1532:1006:Antonio Jose Silva,,,:/home/a105126:/bin/bash
+a105200:x:1533:1006:Carlos Bernardo Silva,,,:/home/a105200:/bin/bash
+a105436:x:1535:1006:Duarte Mateus Silva,,,:/home/a105436:/bin/bash
+a105872:x:1536:1006:Edna Nuno Silva,,,:/home/a105872:/bin/bash
+a104986:x:1537:1006:Goncalo Teodoro Silva,,,:/home/a104986:/bin/bash
+a104576:x:1538:1006:Joao Garcia Silva,,,:/home/a104576:/bin/bash
+a104811:x:1542:1006:Joao Pedro Silva,,,:/home/a104811:/bin/bash
+a105141:x:1543:1006:Miguel Barros Silva,,,:/home/a105141:/bin/bash
+a105447:x:1544:1006:Rodrigo Mario Silva,,,:/home/a105447:/bin/bash
+a94073:x:1545:1006:Ruben Francisco Silva,,,:/home/a94073:/bin/bash
+a105397:x:1546:1006:Vicente de Silva,,,:/home/a105397:/bin/bash
+a104718:x:1547:1006:Amanpreet Singh,,,:/home/a104718:/bin/bash
+a103470:x:1548:1006:Mussa Sisse,,,:/home/a103470:/bin/bash
+a104901:x:1549:1006:Tiago Pedro Soares,,,:/home/a104901:/bin/bash
+a105456:x:1551:1006:Pedro Menezes Sobral,,,:/home/a105456:/bin/bash
+a93794:x:1552:1006:Diogo Antonio Sousa,,,:/home/a93794:/bin/bash
+a105226:x:1553:1006:Pedro Miguel Sousa,,,:/home/a105226:/bin/bash
+a105423:x:1554:1006:Salvador Maria Sousa,,,:/home/a105423:/bin/bash
+a104808:x:1555:1006:Vasco Moreira Tavares,,,:/home/a104808:/bin/bash
+a105514:x:1556:1006:Afonso Franco Teixeira,,,:/home/a105514:/bin/bash
+a104597:x:1558:1006:Rodrigo Miguel Timoteo,,,:/home/a104597:/bin/bash
+a105492:x:1559:1006:Goncalo Prazeres Torres,,,:/home/a105492:/bin/bash
+a105520:x:1560:1006:Vera Silva Ulrich,,,:/home/a105520:/bin/bash
+a104754:x:1561:1006:Rodrigo Duarte Valadas,,,:/home/a104754:/bin/bash
+a105551:x:1562:1006:Goncalo Jose Vale,,,:/home/a105551:/bin/bash
+a105203:x:1564:1006:Miguel Martins Varela,,,:/home/a105203:/bin/bash
+a105373:x:1566:1006:Bernardo Manuel Vasconcelos,,,:/home/a105373:/bin/bash
+a104750:x:1567:1006:Guilherme de Vasques,,,:/home/a104750:/bin/bash
+a104671:x:1568:1006:Mario Humberto Vieira,,,:/home/a104671:/bin/bash
+a105563:x:1569:1006:Maria Magro Vinheiras,,,:/home/a105563:/bin/bash
+a105592:x:1570:1006:Maria Zhang,,,:/home/a105592:/bin/bash
+a99562:x:1571:1006:Mamadu Aliu Bah,,,:/home/a99562:/bin/bash
