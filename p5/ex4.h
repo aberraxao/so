@@ -1,0 +1,1 @@
+void tabuada(int);
