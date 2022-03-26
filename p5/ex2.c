@@ -1,16 +1,20 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <ctype.h> 
+
 #include "ex2.h"
 
 int main()
 {
-    // ex2();
-    ex2_aula();
+    ex2();
+    // ex2_aula();
+    return 0;
 }
 
 void ex2()
 {
-    char primeiro_nome[101], ultimo_nome[101], nome[204];
+    char primeiro_nome[101], ultimo_nome[101], nome[202];
     int idade;
 
     printf("Primeiro nome: ");
@@ -18,11 +22,9 @@ void ex2()
 
     printf("Último nome: ");
     scanf("%100s", ultimo_nome);
-
+    
     printf("Idade: ");
-    //scanf("%d", &idade);
-    fgets(idade, 100, stdin);
-    idade = atoi()
+    scanf("%d", &idade);
 
     /*
     // 2a
@@ -40,17 +42,19 @@ void ex2()
     // 2c
     snprintf(nome, 204, "%s - %s", primeiro_nome, ultimo_nome);
     printf("Nome completo: %s\n", nome);
+    printf("A minha idade é %d\n", idade);
 
-    /*
-    // 3 TODO - NOT WORKING
+    // 3 NOTE: Use '' for chars
     int i=0, nb_virgulas=0;
     while(nome[i] != 0){
-        if(nome[i] == ","){
+        if(nome[i] == ',')
             nb_virgulas++;
-        }
+        nome[i] = toupper(nome[i]);
         i++;
     }
-    */
+
+    printf("Número de vírgulas: %d\n", nb_virgulas);
+    printf("Nome em maiúsculas : %s\n", nome);
 }
 
 void ex2_aula()
