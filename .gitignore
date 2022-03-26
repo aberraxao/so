@@ -35,8 +35,8 @@
 hs_err_pid*
 
 # Ignore compiled
-*
-!*.*
+# *
+# !*.*
 
 # VS Code
 .vscode/*
