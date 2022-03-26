@@ -10,4 +10,5 @@ int main()
     int x = (b > 2);
     printf("valor de x : %d\n", x);
     printf("Terceira pos : %d\n", v[2]);
+    return 0;
 }
